@@ -1,0 +1,36 @@
+/* stying elements */
+body {
+    background-image: url("microphone1.jpg");
+    background-attachment: fixed;
+}
+/* stying classes */
+
+.center {
+    margin-top: 10%;
+    float:right;
+  }
+
+  .artist-link {
+      color: red;
+  }
+/* stying ids */
+
+#banner {
+    background-color: black;
+    color:grey;
+}
+#bio-card {
+    background: rgb(170, 168, 189, 0.8);
+}
+#search-card {
+    background: rgba(14, 17, 58, 0.7);
+}
+#music-card {
+    background: rgba(39, 176, 240, 0.5);
+}
+#search-card .card-header {
+    color: white;
+}
+#spinner {
+    display: none;
+}

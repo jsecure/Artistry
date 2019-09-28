@@ -1,0 +1,16 @@
+
+Last.fm:
+
+API Key:
+d4a380aaf885c9d212b299849e585e3f
+
+Deezer:
+
+
+
+Discogs:
+
+Client ID       VCWtkFuiXrupBNMAwwnF
+Client secret   DycrSZjEYITFXBeTFFWkoddUcnPqJqCh
+
+https://api.discogs.com/database/search?q=Nirvana&key=VCWtkFuiXrupBNMAwwnF&secret=DycrSZjEYITFXBeTFFWkoddUcnPqJqCh

@@ -1,1 +1,1 @@
-# Artistry
+# Artist-inquiry

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <title>Artistry</title>
+​
+        <!-- CSS: Reset, Bootstrap, custom -->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+​
+        <!-- Javascript: jQuery, Popper.js, Bootstrap, custom -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
+    </head>
+​
+    <body>
+​
+        <div id="banner" class="jumbotron jumbotron-fluid text-center">
+            <!-- Tentative title -->
+            <h1 class="display-4">Artistry</h1>
+        </div>
+​
+        <!-- Body container content -->
+        <div  class="container">
+            <div class="row" id="content">
+                <div class="col-md-4" id="search">
+                    <div  id="search-card" class="card">
+                        <div class="card-header">
+                            Search input
+                        </div>
+                        <div class="card-body">
+                            <!-- Input group: label for Artist search, and artist search input -->
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <label  for="search-term" class="input-group-text">Artist</label>
+                                </div>
+                                <input   type="text" class="form-control" id="search-term">
+                            </div>
+                            <div  class="text-center">
+                                <button type="submit" class="btn btn-primary" id="btnFetch">
+                                    <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true" id="spinner"></span>
+                                    <span id="btnText">Search</span>
+                                </button> 
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="col-md-4" id="bio">
+                    <!-- Appended from js/app.js -->
+                </div>
+                <div class="col-md-4" id="music">
+                    <!-- Appended from js/app.js -->
+    
+                </div>
+            </div>
+            
+​
+            
+        </div>
+    </body>
+</html>
+
+
+
